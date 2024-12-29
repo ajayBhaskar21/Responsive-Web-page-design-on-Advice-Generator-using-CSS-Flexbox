@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body {
+    background-color: #202632;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.container {
+
+    background-color: #313a49;
+    max-width: 500px;
+    padding: 20px;
+    color: #b2c4cc;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.items {
+    margin-top : 10px;
+    margin-bottom: 5px;
+}
+
+#advice {
+    color: #4acf92;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+#adviceText {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 18px;
+}
+
+#btn-submit {
+    background-color: #52feaa;
+    padding-top: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: larger;
+    position: absolute;
+    left: 745px;
+    top: 447px;
+
+}
+
